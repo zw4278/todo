@@ -1,9 +1,9 @@
-import CreateTodo from "./components/CreateTodo.jsx";
+import TodoData from "./components/TodoData";
 
 function App() {
   return (
     <div>
-      <CreateTodo />
+      <TodoData />
       <h1>TODO</h1>
     </div>
   );

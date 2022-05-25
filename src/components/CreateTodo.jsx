@@ -1,7 +1,16 @@
-function CreateTodo() {
+function CreateTodo(props) {
+    const addEntry = () => {
+      console.log(props.data[1][props.data.date]);
+  };
   return (
     <div>
-      <button>ADD</button>
+      <button
+        onClick={() => {
+          addEntry();
+        }}
+      >
+        ADD
+      </button>
     </div>
   );
 }
