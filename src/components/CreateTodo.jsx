@@ -1,6 +1,11 @@
 function CreateTodo(props) {
     const addEntry = () => {
-      console.log(props.data[1][props.data.date]);
+        //let findarrayid = props.data.find((item)=>{return item.id === 1})
+        //let findobjectid = findarrayid[date];
+        let arrayid = props.data[1];
+        let objectid = arrayid.date;
+      
+        console.log(objectid);
   };
   return (
     <div>
